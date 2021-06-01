@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="JuTextStyle" parent="@style/Widget.AppCompat.TextView">
+        <!-- 文字 -->
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/textSizeNormal</item>
+    </style>
+
+    <style name="JuButtonStyle" parent="@style/Widget.AppCompat.Button">
+        <!-- 圆角 -->
+        <item name="corner">true</item>
+        <item name="cornerRadius">@dimen/cornerRadius</item>
+
+        <!-- 边框 -->
+        <item name="borderWidth">@dimen/borderWidth</item>
+
+        <!-- 文字 -->
+        <item name="android:textAppearance">@style/JuTextStyle</item>
+
+        <!-- 背景 -->
+        <item name="android:background">@drawable/button_background</item>
+
+    </style>
+
+</resources>

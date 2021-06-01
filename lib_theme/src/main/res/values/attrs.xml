@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="JuButton">
+        <!--<attr name="corner" />
+        <attr name="cornerRadius" />
+        <attr name="borderWidth" />-->
+
+        <attr name="corner" format="boolean" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="borderWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="JuTheme">
+        <attr name="JuTextStyle" format="reference" />
+        <attr name="JuButtonStyle" format="reference" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:ju="http://schemas.android.com/apk/res-auto">
+    <!-- Base application theme. -->
+    <style name="Theme.WidgetDemo" parent="JuTheme">
+
+    </style>
+</resources>

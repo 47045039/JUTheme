@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="cornerRadius">20px</dimen>
+    <dimen name="borderWidth">8px</dimen>
+
+    <dimen name="textSizeNormal">64px</dimen>
+    <dimen name="textSizeLarge">128px</dimen>
+
+</resources>

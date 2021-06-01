@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ju="http://schemas.android.com/apk/res-auto">
+
+    <item android:color="@color/text_color_focused_corner" android:state_focused="true" ju:corner="true" />
+    <item android:color="@color/text_color_focused" android:state_focused="true" ju:corner="false" />
+
+    <item android:color="@color/text_color_selected_corner" android:state_selected="true" ju:corner="true" />
+    <item android:color="@color/text_color_selected" android:state_selected="true" ju:corner="false" />
+
+    <item android:color="@color/text_color_normal_corner" ju:corner="true" />
+    <item android:color="@color/text_color_normal" ju:corner="false" />
+
+</selector>

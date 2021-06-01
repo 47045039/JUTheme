@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_color_focused">#FFFF0000</color>
+    <color name="text_color_selected">#FF00FF00</color>
+    <color name="text_color_normal">#FF0000FF</color>
+
+    <color name="text_color_focused_corner">#88FF0000</color>
+    <color name="text_color_selected_corner">#8800FF00</color>
+    <color name="text_color_normal_corner">#880000FF</color>
+
+    <color name="background_color_focused">#FFFFFFFF</color>
+    <color name="background_color_selected">#FF000000</color>
+    <color name="background_color_normal">#FF888888</color>
+
+    <color name="background_color_focused_corner">#88FFFFFF</color>
+    <color name="background_color_selected_corner">#88000000</color>
+    <color name="background_color_normal_corner">#88888888</color>
+</resources>

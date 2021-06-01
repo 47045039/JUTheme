@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ju="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/JuTheme">
+
+    <com.ju.widget.CustomButton
+        style="@style/JuButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="128px"
+        android:text="Button_With_Corner"
+        ju:corner="true"
+        ju:cornerRadius="@dimen/cornerRadius" />
+
+    <com.ju.widget.CustomButton
+        android:layout_width="match_parent"
+        android:layout_height="128px"
+        android:text="Button_Without_Corner"
+        ju:corner="false" />
+
+</LinearLayout>

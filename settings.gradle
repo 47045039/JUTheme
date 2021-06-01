@@ -1,0 +1,4 @@
+include ':lib_widget'
+include ':lib_theme'
+include ':app'
+rootProject.name = "WidgetDemo"
